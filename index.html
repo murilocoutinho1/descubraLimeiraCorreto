@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia turístico de Limeira</title>
+    <link rel="stylesheet" href="Styles/style.css">
+    
+</head>
+<body>
+    <header>
+        <div id="titulo">
+           <a class="tirarRoxo" href="http://127.0.0.1:5500/index.html"><h1>Conheça Limeira</h1></a>
+        </div>
+        <div id="subtitulo">
+            <p>Cidade das joias e da laranja lima</p>
+        </header>
+        </div>
+        
+        <main>
+            <section class="cartoes">
+                <div class="cartao" onclick="toggleCard(this)">
+                    <h2>Pontos Turísticos</h2>
+                    <p class="info">Clique para saber mais!</p>
+                    <div class="extra">
+                        <p>Visite o Parque Cidade de Limeira e o Horto Florestal!</p>
+                    </div>
+                </div>
+
+                <div class="cartao" onclick="toggleCard(this)">
+                    <h2>Comidas Típicas</h2>
+                    <p class="info">Clique para saber mais!</p>
+                    <div class="extra">
+                        <p>Conheça a coxinha, feijoada e a Gastronomia Asiática de Limeira</p>
+                    </div>
+                </div>
+                <div class="cartao" onclick="toggleCard(this)">
+                    <h2>Eventos da Cidade</h2>
+                    <p class="info">Clique para saber mais!</p>
+                    <div class="extra">
+                        <p>De Festa do Milho à evento que celebra a Amizade Brasil-Japão!</p>
+                    </div>
+                </div>
+            </section>
+            <section class="galeria">
+                <h2>Galeria de Imagens</h2>
+                <div class="imagens">
+                    <img src="Assets/Parque Cidade Limeira.jpg" alt="Parque Cidade de Limeira">
+                    <img src="Assets/Horto Florestal de Limeira.jpg" alt="Horto Florestal">
+                    <img src="Assets/Gruta de Limeira.jpg" alt="Teatro Vitória">
+                </div>
+            </section>
+    
+            <section class="curiosidade">
+                <h2>Curiosidades</h2>
+                <button onclick="gerarCuriosidade()">Gerar Curiosidade Aleatória</button>
+                <p id="texto-curiosidade"></p>
+            </section>
+    
+        <footer>
+            <p>&reg; Site desenvolvido por Murilo Coutinho</p>
+        </footer>
+        </main>
+        <script src="Scripts/script.js" defer></script>
+
+</body>
+</html>
